@@ -1,0 +1,14 @@
+<img src="yolo..gif">
+<audio src="a.mp3" autoplay></audio>
+<img src="chickenonaraft.png">
+Miku has been on a raft with a chicken for <span>1</span> seconds
+<script>
+
+i = 0
+function foo() {
+    s= document.getElementsByTagName("span")[0]
+    s.innerHTML = String(i++)
+    setTimeout(foo,1000);
+}
+foo()
+</script>
